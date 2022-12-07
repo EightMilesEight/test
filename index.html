@@ -1,10 +1,44 @@
 <html lang="en">
 <head>
-    <title>Website Counter</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="main.css" />
+    <meta charset="utf-8">
+    <title>WJSV 90.5 FM</title>
+    <meta name="description" content="Congrats! You discovered my little corner of the internet.">
+    <meta name="author" content="8Miles8">
+    <link rel="shortcut icon" href="background.jpg">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
-<img src="https://visitor-badge.glitch.me/badge?page_id={{eightmileseight}}" alt="Views"/>
+
+
+<span id="trigger"></span>
+<div class="container">
+    <!-- SVG   -->
+    <div class="svg-container">
+        <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920px" height="1080px" preserveAspectRatio="xMidYMid slice">
+            <defs>
+                <!-- Mask -->
+                <mask id="mask" x="0" y="0" width="1920" height="1080" >
+                    <rect x="0" y="0" width="1920" height="1080"/>
+                    <text x="960" y="1em">X</text>
+                </mask>
+            </defs>
+            <rect x="0" y="0" width="1920" height="1080"/>
+        </svg>
+    </div>
+
+    <div class="video-container">
+        <video id="video" autoplay playsinline muted="muted" preload="auto" loop="loop" poster="https://assets.codepen.io/687837/poster.png">
+            <source src="https://hellosusan.io/assets/video.mp4" type="video/mp4">
+        </video>
+    </div>
+
+</div>
+
+<section class="nextSection">
+    <p>HELLO</p>
+</section>
+
+
 </body>
 </html>
