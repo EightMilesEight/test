@@ -114,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero */
 .s-hero {
+    min-height: 100vh;
     margin: 0;
     padding: 1rem 3rem 3rem;
     display: flex;
@@ -201,6 +202,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Individual Previews */
+.colonialcorner-thumbnail {
+    background-image: url("https://eightmileseight.github.io/test/assets/colonialcorner.png");
+}
+
 .github-thumbnail {
     background-image: url("https://eightmileseight.github.io/test/assets/github.png");
 }
@@ -215,6 +220,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .act_scene_voicerecog_pi-thumbnail {
     background-image: url("https://eightmileseight.github.io/test/assets/act_scene_voicerecog_pi.png");
+}
+
+.eightmileseight-original-thumbnail {
+    background-image: url("https://eightmileseight.github.io/test/assets/eightmileseight-original.png");
 }
 
 /* Header */
